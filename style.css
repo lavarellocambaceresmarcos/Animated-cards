@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(19, 18, 18);
+    background: rgb(250, 249, 249);
 }
 
 .main {
@@ -79,24 +79,26 @@ body {
 }
 
 
-.back a{
-    color: #fff;
-    text-decoration: none;
-    margin-top: 20px;
-    text-transform: uppercase;
-    z-index: 1000;
+.lobo {
+    position: absolute;
+    top: 0;
 }
 
-.btn-transparent {
-    height: 50px;
-    width: 160px;
-    background: black;
+
+
+.back a{
+    z-index: 1000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
     position: absolute;
-    bottom: 2vh;
-    border-radius: .5vw;
-    opacity: .3;
-    box-shadow: .5px .5px 3px rgb(20, 20, 20);
+    bottom: 4vh;
+    border: solid 1px #fff;
+    padding: 10px;
+    border-radius: .2vw;
+    margin-top: 10vh;
 }
+
 
 
 /* CARD - 2 */
