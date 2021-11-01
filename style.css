@@ -40,7 +40,7 @@ body {
 
 
 .main {
-    margin-top: 100px;
+    margin-top: 25vh;
     position: relative;
     width: 250px;
     height: 380px;
@@ -66,7 +66,7 @@ body {
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    transform: translateZ(80px);
+    /* transform: translateZ(80px); */
     border-radius: .8vw;
     background: url(img/darco-2-front.png);
     background-size: cover;
@@ -76,6 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: .5px 1px 10px black;
+    transform-style: preserve-3d;
 
 }
 
@@ -142,7 +143,7 @@ body {
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    transform: translateZ(80px);
+    /* transform: translateZ(80px); */
     border-radius: .8vw;
     background: url(img/toff-man.png);
     background-size: cover;
@@ -152,6 +153,7 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: .5px 1px 10px black;
+    transform-style: preserve-3d;
 }
 
 
@@ -204,7 +206,8 @@ body {
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    transform: translateZ(80px);
+    /* transform: translateZ(80px); */
+    transform-style: preserve-3d;
     border-radius: .8vw;
     background: url(img/fondo-front-diablo.png);
     background-size: cover;
@@ -244,7 +247,7 @@ body {
 .angel {
     position: absolute;
     top: 0;
-    height: 70%;
+    height: 75%;
     transform: translateZ(80px);
 }
 
@@ -347,6 +350,30 @@ body {
 @media screen and (min-width:1600px) {
     .video {
         width: auto;
-        height: 500%;
+        height: 170%;
     }
+
+    
+    .main {
+        position: relative;
+        width: 350px;
+        height: 480px;
+        perspective: 1000px;
+    }
+
+    .angel{
+        height: 79%;
+    }
+
+    
+    .nave {
+        height: 70%;
+    }
+
+    
+    .lobo {
+        height: 79%;
+    }
+    
+
 }
