@@ -270,7 +270,7 @@ body {
     position: absolute;
     top: -70%;
     left: -30%;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-fill-mode: both;
     animation-name: fly3;
     animation-iteration-count: infinite;
@@ -326,7 +326,7 @@ body {
         transform:translateX(-100%) translateY(-100%) ;
     }
     to {
-        transform: translateX(100%) translateY(200%);
+        transform: translateX(200%) translateY(300%);
     }
 }
 
